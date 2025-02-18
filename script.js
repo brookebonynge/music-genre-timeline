@@ -8,6 +8,7 @@ const genres = [
     { name: "Jazz", year: 1910, emoji: "🎺", streamPercentage: 7 },
     { name: "Country", year: 1920, emoji: "🤠", streamPercentage: 10 },
     { name: "Swing", year: 1930, emoji: "👯‍♀️", streamPercentage: 2 },
+    { name: "R&B", year: 1940, emoji:"🎙️", streamPercentage: 27.3},
     { name: "Rock and Roll", year: 1950, emoji: "🤘🏼", streamPercentage: 15 },
     { name: "Soul", year: 1960, emoji: "🕺", streamPercentage: 8 },
     { name: "Disco", year: 1970, emoji: "🪩", streamPercentage: 6 },
