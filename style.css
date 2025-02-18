@@ -48,13 +48,16 @@ h4{
     margin-top: 10px;
     color: #333;
     text-align: center;
+    max-width:fit-content;
+    place-self: center;
 }
-
 
 #timeline {
     width: 90%;
     margin: auto;
     height: 500px;
+    max-width:fit-content;
+    place-self: center;
 }
 
 .tooltip {
