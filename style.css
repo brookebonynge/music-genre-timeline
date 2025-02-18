@@ -7,7 +7,7 @@ body {
 #portfolioBtn {
     display: block;
     left: 20px auto;
-    background:url(../figma/B-DESIGNS.png);
+    background:url(./figma/B-DESIGNS.png);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ body {
 }
 
 #portfolioBtn:hover {
-    background:url(../figma/B-DESIGNS-hover.png);
+    background:url(./figma/B-DESIGNS-hover.png);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,7 +34,7 @@ body {
 
 
 h1{
-    background:url(../figma/Music-Genre-Timeline.png);
+    background:url(./figma/Music-Genre-Timeline.png);
     color: transparent;
     width: fit-content;
     place-self: center;
