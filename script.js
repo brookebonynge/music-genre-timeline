@@ -58,12 +58,12 @@ svg.selectAll("line.grid")
     .enter()
     .append("line")
     .attr("class", "grid")
-    .attr("x1", margin.left) // Start at left margin
-    .attr("x2", width - margin.right) // Extend to right margin
-    .attr("y1", d => yScale(d)) // Position based on streaming percentage
+    .attr("x1", margin.left) // start at left margin
+    .attr("x2", width - margin.right) // go to right margin
+    .attr("y1", d => yScale(d)) // based on streaming percentage
     .attr("y2", d => yScale(d))
-    .attr("stroke", "#ccc") // Light gray for visibility
-    .attr("stroke-dasharray", "5,5") // Dashed style
+    .attr("stroke", "#ccc") 
+    .attr("stroke-dasharray", "5,5") 
     .attr("stroke-width", 1);
 
 // displaying genre info
