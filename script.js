@@ -33,7 +33,7 @@ const svg = d3.select("#timeline")
 
 // timeline (my x-axis)
 const xScale = d3.scaleLinear()
-    .domain([1800, 2025])
+    .domain([1800, 2050])
     .range([margin.left, width - margin.right]);
 
 // streaming percentage (my y-axis)
