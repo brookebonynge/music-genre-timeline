@@ -3,7 +3,7 @@ document.getElementById("portfolioBtn").addEventListener("click", function() {
  });
 // music genres represented by emojis and stream%
 const genres = [
-    { name: "Classical", year: 1600, emoji: "🎻", streamPercentage: 5 },
+    { name: "Classical", year: 1820, emoji: "🎻", streamPercentage: 5 },
     { name: "Blues", year: 1860, emoji: "🎷", streamPercentage:16 },
     { name: "Jazz", year: 1910, emoji: "🎺", streamPercentage: 23.3 },
     { name: "Country", year: 1920, emoji: "🤠", streamPercentage: 10 },
@@ -33,7 +33,7 @@ const svg = d3.select("#timeline")
 
 // timeline (my x-axis)
 const xScale = d3.scaleLinear()
-    .domain([1550, 2025])
+    .domain([1800, 2025])
     .range([margin.left, width - margin.right]);
 
 // streaming percentage (my y-axis)
