@@ -4,17 +4,19 @@ document.getElementById("portfolioBtn").addEventListener("click", function() {
 // music genres represented by emojis and stream%
 const genres = [
     { name: "Classical", year: 1600, emoji: "🎻", streamPercentage: 5 },
-    { name: "Blues", year: 1860, emoji: "🎷", streamPercentage: 3 },
-    { name: "Jazz", year: 1910, emoji: "🎺", streamPercentage: 7 },
+    { name: "Blues", year: 1860, emoji: "🎷", streamPercentage:16 },
+    { name: "Jazz", year: 1910, emoji: "🎺", streamPercentage: 23.3 },
     { name: "Country", year: 1920, emoji: "🤠", streamPercentage: 10 },
     { name: "Swing", year: 1930, emoji: "👯‍♀️", streamPercentage: 2 },
     { name: "R&B", year: 1940, emoji:"🎙️", streamPercentage: 27.3},
     { name: "Rock and Roll", year: 1950, emoji: "🤘🏼", streamPercentage: 15 },
     { name: "Soul", year: 1960, emoji: "🕺", streamPercentage: 8 },
+    { name: "Heavy Metal", year: 1968, emoji: "👩🏼‍🎤", streamPercentage: 10 },
     { name: "Disco", year: 1970, emoji: "🪩", streamPercentage: 6 },
+    { name: "Punk Rock", year: 1974, emoji: "🥁", streamPercentage: 14.7 },
     { name: "Hip Hop", year: 1973, emoji: "🎧", streamPercentage: 20 },
     { name: "Techno", year: 1980, emoji: "🎛️", streamPercentage: 12 },
-    { name: "Grunge", year: 1990, emoji: "🎸", streamPercentage: 9 },
+    { name: "Grunge", year: 1990, emoji: "🎸", streamPercentage: 6 },
     { name: "EDM", year: 2000, emoji: "💿", streamPercentage: 18 },
     { name: "Pop", year: 2010, emoji: "💅🏻", streamPercentage: 25 }
 ];
