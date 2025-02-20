@@ -1,6 +1,7 @@
 document.getElementById("portfolioBtn").addEventListener("click", function() {
     window.open("https://www.brookebonynge.design/", "blank");
  });
+
 // music genres represented by emojis and stream%
 const genres = [
     { name: "Classical", year: 1820, emoji: "🎻", streamPercentage: 5 },
@@ -17,8 +18,8 @@ const genres = [
     { name: "Hip Hop", year: 1973, emoji: "🎧", streamPercentage: 20 },
     { name: "Techno", year: 1980, emoji: "🎛️", streamPercentage: 12 },
     { name: "Grunge", year: 1990, emoji: "🎸", streamPercentage: 6 },
-    { name: "EDM", year: 2000, emoji: "💿", streamPercentage: 18 },
-    { name: "Pop", year: 2010, emoji: "💅🏻", streamPercentage: 25 }
+    { name: "EDM", year: 1980, emoji: "💿", streamPercentage: 18 },
+    { name: "Pop", year: 1950, emoji: "💅🏻", streamPercentage: 25 }
 ];
 
 
@@ -33,7 +34,7 @@ const svg = d3.select("#timeline")
 
 // timeline (my x-axis)
 const xScale = d3.scaleLinear()
-    .domain([1800, 2050])
+    .domain([1800, 2000])
     .range([margin.left, width - margin.right]);
 
 // streaming percentage (my y-axis)
@@ -91,6 +92,7 @@ svg.selectAll("text.emoji")
     .attr("text-anchor", "middle")
     .attr("font-size", "30px")
     .text(d => d.emoji)
+
     .on("mouseover", function(event, d) {
         tooltip.style("visibility", "visible")
                .text(`${d.name}, ${d.year}, ${d.streamPercentage}%`);
