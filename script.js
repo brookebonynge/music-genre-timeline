@@ -18,7 +18,7 @@ const genres = [
     { name: "Hip Hop", year: 1973, emoji: "🎧", streamPercentage: 20 },
     { name: "Techno", year: 1980, emoji: "🎛️", streamPercentage: 12 },
     { name: "Grunge", year: 1990, emoji: "🎸", streamPercentage: 6 },
-    { name: "EDM", year: 1980, emoji: "💿", streamPercentage: 18 },
+    { name: "EDM", year: 1980, emoji: "💿", streamPercentage: 20 },
     { name: "Pop", year: 1950, emoji: "💅🏻", streamPercentage: 25 }
 ];
 
